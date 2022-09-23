@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  height: 100%;
+  background-color: #0C003D;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.logo {
+  position: absolute;
+  margin-bottom: 150px;
+}
+
+.title {
+  font-family: Josefin Sans, sans-serif;
+  color: white;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: aqua;
+}
